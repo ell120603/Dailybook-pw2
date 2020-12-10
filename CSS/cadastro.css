@@ -1,0 +1,26 @@
+#title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+img{
+    padding-right: 25px;
+}
+h2{
+    padding-top: 5px;
+}
+
+#button_1{
+    width: 25%;
+}
+
+#button_2{
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    height: 118px;
+    background-color: #17a2b8;
+}

@@ -13,8 +13,8 @@ constraint FK_ foreign key(user_id) references login(user_id)
 );
 insert into notas(anotacao,user_id) values('A imaginação é mais importante que o conhecimento');
 
-insert into login(user_id, usuario, pergunta_seguranca, senha) values ('1' ,'joão_pedro', 'pedro','4002');
-insert into login(usuario,pergunta_seguranca, senha) values('teste', 'maria', 'teste123');
+insert into login(user_id, usuario, senha) values ('1' ,'joão_pedro','4002');
+insert into login(usuario, senha) values('teste', 'teste123');
 
 delete from login where user_id=1;
 
@@ -25,7 +25,7 @@ select * from login;
 drop table login;
 drop table notas;
 
-update notas set anotacao = 'bla' where nota_id = 1
+update notas set anotacao = 'bla' where nota_id = 1;
 
 truncate login;
 

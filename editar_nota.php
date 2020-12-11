@@ -27,7 +27,7 @@ include('connection.php');
 </nav>   
 <br>
 <br>
-
+<h1>Editar Nota</h1>
 <form action="editar.php" method="POST">
 <textarea id="nota" name="edit"
             rows="5" cols="180" placeholder="escreva sua anotação">

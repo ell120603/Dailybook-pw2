@@ -76,7 +76,7 @@ session_start();
 
           <div class="under_enter animate-up">
             <div class="text-left">
-              <a href="cadastro.php" class="text-light"> Criar conta </a>
+              <a href="cadastro.php" class="text-dark"> Criar conta </a>
             </div>
             
           </div>
